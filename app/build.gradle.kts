@@ -158,8 +158,9 @@ dependencies {
     // DataStore
     implementation(libs.datastore.preferences)
 
-    // YoutubeDL-Boom (yt-dlp)
+    // YoutubeDL-Boom (yt-dlp) — now on Maven Central
     implementation(libs.youtubedl.android)
+    implementation(libs.youtubedl.boom.commons)
     
     // OkHttp
     implementation(libs.okhttp)
