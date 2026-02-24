@@ -1,0 +1,4 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base theme required by the manifest - Compose handles actual theming -->
+    <style name="Theme.YtDlpDownloader" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
