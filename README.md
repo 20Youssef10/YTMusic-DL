@@ -88,8 +88,8 @@ com.example.ytdlpdownloader/
 
 1. **Clone the repo:**
    ```bash
-   git clone https://github.com/yourname/ytdlp-downloader.git
-   cd ytdlp-downloader
+   git clone https://github.com/20Youssef10/YTMusic-DL.git
+   cd YTMusic-DL
    ```
 
 2. **Open in Android Studio:** `File → Open → select project root`
