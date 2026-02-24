@@ -5,6 +5,7 @@ import android.content.Intent
 import android.net.Uri
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
@@ -384,8 +385,6 @@ fun SettingsClickItem(
         },
         leadingContent = { Icon(icon, contentDescription = null) },
         trailingContent = { Icon(Icons.Default.ChevronRight, null) },
-        modifier = androidx.compose.ui.Modifier.then(
-            androidx.compose.foundation.Modifier.clickable(onClick = onClick)
-        )
+        modifier = Modifier.clickable(onClick = onClick)
     )
 }

@@ -160,7 +160,7 @@ dependencies {
 
     // YoutubeDL-Boom (yt-dlp) — now on Maven Central
     implementation(libs.youtubedl.android)
-    implementation(libs.youtubedl.boom.commons)
+    implementation(libs.youtubedl.android.ffmpeg)
     
     // OkHttp
     implementation(libs.okhttp)
@@ -180,4 +180,3 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(platform(libs.androidx.compose.bom))
     androidTestImplementation(libs.androidx.ui.test.junit4)
-}
